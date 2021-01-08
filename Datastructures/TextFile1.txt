@@ -1,0 +1,9 @@
+
+url: https://www.geeksforgeeks.org/array-data-structure/
+
+1) Questions 2,3,4 ArrayRotation - yet to see as its same output
+   
+2) Question 5: Search Rotated Array needs to be performed using Binary search of complexity 0(log n)
+
+
+
