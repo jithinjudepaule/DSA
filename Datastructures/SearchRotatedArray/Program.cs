@@ -24,6 +24,7 @@ namespace SearchRotatedArray
             int searchElement = Convert.ToInt32(Console.ReadLine());
 
             int index = FindIndexOfElement(array, searchElement);
+
             Console.WriteLine(index);
         }
 
