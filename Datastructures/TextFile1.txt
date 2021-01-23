@@ -6,4 +6,6 @@ url: https://www.geeksforgeeks.org/array-data-structure/
 2) Question 5: Search Rotated Array needs to be performed using Binary search of complexity 0(log n)
 
 3) Binary Search: How the control is coming bak to else statement after returning mid?
+        Not seen- 4) Find index of an element in an array of infinite length using Binary search
+                  5) Max Sub Array, not seen- https://www.geeksforgeeks.org/maximum-subarray-sum-excluding-certain-elements/ 
 
