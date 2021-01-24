@@ -8,4 +8,5 @@ url: https://www.geeksforgeeks.org/array-data-structure/
 3) Binary Search: How the control is coming bak to else statement after returning mid?
         Not seen- 4) Find index of an element in an array of infinite length using Binary search
                   5) Max Sub Array, not seen- https://www.geeksforgeeks.org/maximum-subarray-sum-excluding-certain-elements/ 
-
+                  6) Check Binary Search Method - https://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/
+7) Revise Peak Element - Binary Search https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
