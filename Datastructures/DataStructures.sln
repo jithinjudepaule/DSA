@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindElementAppearingOnce", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSubArray", "MaxSubArray\MaxSubArray.csproj", "{2AA4857B-69C4-4BC9-BCD7-CC6DAB291918}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquilibriumSum", "EquilibriumSum\EquilibriumSum.csproj", "{56ECE719-C3D9-4D9D-A227-95E43D091DC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2AA4857B-69C4-4BC9-BCD7-CC6DAB291918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA4857B-69C4-4BC9-BCD7-CC6DAB291918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA4857B-69C4-4BC9-BCD7-CC6DAB291918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

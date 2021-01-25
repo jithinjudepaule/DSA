@@ -7,5 +7,5 @@ url: https://www.geeksforgeeks.org/array-data-structure/
 
 3) Binary Search: How the control is coming bak to else statement after returning mid?
         Not seen- 4) Find index of an element in an array of infinite length using Binary search
-                  5) Max Sub Array, not seen- https://www.geeksforgeeks.org/maximum-subarray-sum-excluding-certain-elements/ 
+                  5) Max Sub Array, revise- https://www.geeksforgeeks.org/maximum-subarray-sum-excluding-certain-elements/ 
 
