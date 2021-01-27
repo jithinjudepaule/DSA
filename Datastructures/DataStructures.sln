@@ -37,9 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeadersInArray", "LeadersIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MajorityElement", "MajorityElement\MajorityElement.csproj", "{14841081-3CC9-4664-9D3F-DD49BDA505C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeakElement", "PeakElement\PeakElement.csproj", "{4F44C7B6-18B3-4230-A8DA-0A0D05903773}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakElement", "PeakElement\PeakElement.csproj", "{4F44C7B6-18B3-4230-A8DA-0A0D05903773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquilibriumSum", "EquilibriumSum\EquilibriumSum.csproj", "{56ECE719-C3D9-4D9D-A227-95E43D091DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquilibriumSum", "EquilibriumSum\EquilibriumSum.csproj", "{56ECE719-C3D9-4D9D-A227-95E43D091DC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +107,10 @@ Global
 		{4F44C7B6-18B3-4230-A8DA-0A0D05903773}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F44C7B6-18B3-4230-A8DA-0A0D05903773}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F44C7B6-18B3-4230-A8DA-0A0D05903773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56ECE719-C3D9-4D9D-A227-95E43D091DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
