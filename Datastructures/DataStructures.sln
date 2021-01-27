@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixedPointElement", "FixedP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_IfSumIsInSubarray", "Find_IfSumIsInSubarray\Find_IfSumIsInSubarray.csproj", "{834AE1A1-8619-4D07-94D3-4F4FA07962BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquilibriumSum", "EquilibriumSum\EquilibriumSum.csproj", "{56ECE719-C3D9-4D9D-A227-95E43D091DC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
