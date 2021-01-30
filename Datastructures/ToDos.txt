@@ -10,3 +10,12 @@ url: https://www.geeksforgeeks.org/array-data-structure/
                   5) Max Sub Array, not seen- https://www.geeksforgeeks.org/maximum-subarray-sum-excluding-certain-elements/ 
                   6) Check Binary Search Method - https://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/
 7) Revise Peak Element - Binary Search https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+8) Questions 23,24,25 - TO DO
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------Strings-------------------------------------------------------------------------
+
+
