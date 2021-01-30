@@ -1,5 +1,4 @@
-﻿// C# program to find maximum equilibrium sum.
-using System.Linq;
+﻿using System.Linq;
 using System;
 
 class Program
@@ -36,4 +35,4 @@ class Program
 	}
 }
 
-// This code is contributed by Smitha.
+
