@@ -36,6 +36,12 @@ namespace Pangram
                 {
                     isPangram = false;
                     break;
+                    //print characters that are required to make it pangram
+
+                    //if (alphabets[i] == false)
+                    //{
+                    //    Console.WriteLine((char)('a' + i));
+                    //}
                 }
             }
             if (isPangram)
