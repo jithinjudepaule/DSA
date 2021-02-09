@@ -1,1 +1,20 @@
-1. Not clear SmallestWindow - https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+Character Counting based problems- 
+1. Revise SmallestWindow - https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+2. Revise - No 2 adjacent chars are same - https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+3. Arithemetic Operations in string - Entire section not seen
+4. No: of substrings =n*(n+1)/2
+5. Question 9 - set/method 2 not clear
+6. Question 8,13, 17, 18,19,20,21,22. - pending
+7. permutation - 
+					permuteFunc(string, low, high)
+					if(low==high)
+					cwriteline
+					else
+					{
+					  for i=low; i<high;i++
+					  {
+					    swap(string,low,i)
+						permute(string,low+!,high)
+						swap(string,low,i)
+					  }
+					}
