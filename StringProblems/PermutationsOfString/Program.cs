@@ -8,7 +8,7 @@ namespace PermutationsOfString
         {
             //Fibonacci.PrintFibonacci(5);
             //PrintRecursively(4);
-            StringPermutation.PrintStringPermutations("abc",0,2);
+            StringPermutation.PrintStringPermutations("rgbr",0,3);
         } 
         static void PrintRecursively(int num)
         {

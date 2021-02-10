@@ -47,7 +47,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallestWindow-Distinct", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubstringswithK", "SubstringswithK\SubstringswithK.csproj", "{C337E998-B831-4856-B9F4-DACD9FB36B4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddIndexSwap", "OddIndexSwap\OddIndexSwap.csproj", "{4CD07961-DAAC-4282-85D8-19B3308F9E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddIndexSwap", "OddIndexSwap\OddIndexSwap.csproj", "{4CD07961-DAAC-4282-85D8-19B3308F9E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistinctSubstring-SuffixTie", "DistinctSubstring-SuffixTie\DistinctSubstring-SuffixTie.csproj", "{9ED933F9-AC08-431B-ADD7-D4B62C449DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBCombinations", "RGBCombinations\RGBCombinations.csproj", "{F9629CFB-7177-4753-95AE-1C2899B89F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfStrings", "CountOfStrings\CountOfStrings.csproj", "{4B368F53-0106-4DCC-BC54-49EB84BBC809}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +141,18 @@ Global
 		{4CD07961-DAAC-4282-85D8-19B3308F9E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD07961-DAAC-4282-85D8-19B3308F9E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD07961-DAAC-4282-85D8-19B3308F9E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED933F9-AC08-431B-ADD7-D4B62C449DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED933F9-AC08-431B-ADD7-D4B62C449DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED933F9-AC08-431B-ADD7-D4B62C449DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED933F9-AC08-431B-ADD7-D4B62C449DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9629CFB-7177-4753-95AE-1C2899B89F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9629CFB-7177-4753-95AE-1C2899B89F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9629CFB-7177-4753-95AE-1C2899B89F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9629CFB-7177-4753-95AE-1C2899B89F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B368F53-0106-4DCC-BC54-49EB84BBC809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B368F53-0106-4DCC-BC54-49EB84BBC809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B368F53-0106-4DCC-BC54-49EB84BBC809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B368F53-0106-4DCC-BC54-49EB84BBC809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

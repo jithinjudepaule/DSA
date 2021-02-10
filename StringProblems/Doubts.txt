@@ -4,7 +4,10 @@ Character Counting based problems-
 3. Arithemetic Operations in string - Entire section not seen
 4. No: of substrings =n*(n+1)/2
 5. Question 9 - set/method 2 not clear
-6. Question 8,13, 17, 18,19,20,21,22. - pending
+6. Question 13- ask merin, Q not clear, 
+    pending - 17, 18 find distinct substring -  using suffix array n suffix trie, O(n2) using hash,
+	20 - recursion to do logic permutation
+21,22. - pending
 7. permutation - 
 					permuteFunc(string, low, high)
 					if(low==high)
