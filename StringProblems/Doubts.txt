@@ -6,8 +6,11 @@ Character Counting based problems-
 5. Question 9 - set/method 2 not clear
 6. Question 13- ask merin, Q not clear, 
     pending - 17, 18 find distinct substring -  using suffix array n suffix trie, O(n2) using hash,
-	20 - recursion to do logic permutation
-21,22. - pending
+	20 - recursion to do logic permutation - not clear
+    21 - binaryStrings-K1s not clear
+	22. - To practice - logic clear
+	25- To practice using list of hashset
+	26,27,28- after calls
 7. permutation - 
 					permuteFunc(string, low, high)
 					if(low==high)
