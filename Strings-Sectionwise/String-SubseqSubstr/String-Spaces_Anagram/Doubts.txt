@@ -1,0 +1,3 @@
+1) Spaces between chars not clear - both recursion and Power methods - https://www.geeksforgeeks.org/print-possible-strings-can-made-placing-spaces-2/
+2) Print all anagrams using trie https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/
+3) TODO: Check if 2 levels of tree are ANAGRAM https://www.geeksforgeeks.org/check-if-all-levels-of-two-trees-are-anagrams-or-not/

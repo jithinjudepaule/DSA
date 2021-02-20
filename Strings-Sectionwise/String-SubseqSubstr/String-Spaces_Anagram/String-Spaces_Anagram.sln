@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacesInCapitals", "String-Spaces_Anagram\SpacesInCapitals.csproj", "{2138FC97-750C-41EC-BAEA-A4A7C8D3E323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacesInCapitals", "String-Spaces_Anagram\SpacesInCapitals.csproj", "{2138FC97-750C-41EC-BAEA-A4A7C8D3E323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLetterOfWord", "FirstLetterOfWord\FirstLetterOfWord.csproj", "{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstLetterOfWord", "FirstLetterOfWord\FirstLetterOfWord.csproj", "{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacesBetweenChars", "SpacesBetweenChars\SpacesBetweenChars.csproj", "{40A248A0-07DE-4003-8C11-82D04DD066D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramCheck", "AnagramCheck\AnagramCheck.csproj", "{0C0199B1-10A4-4EB6-810D-61CE7F339F37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doubts", "Doubts", "{E848F1E3-10E3-4112-82A5-053EB2DEE8A6}"
+	ProjectSection(SolutionItems) = preProject
+		Doubts.txt = Doubts.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram-Min.Manipulation", "PrintAlAnagrams\Anagram-Min.Manipulation.csproj", "{0215FFA5-50B2-49F0-86E7-03AF19134311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringsAnagram", "CheckAnagram\SubstringsAnagram.csproj", "{03858E53-995E-4F08-BF58-B84133A78EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram-RemoveChars", "Anagram-RemoveChars\Anagram-RemoveChars.csproj", "{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAllAnagrams", "PrintAllAnagrams\PrintAllAnagrams.csproj", "{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +38,30 @@ Global
 		{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A248A0-07DE-4003-8C11-82D04DD066D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A248A0-07DE-4003-8C11-82D04DD066D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A248A0-07DE-4003-8C11-82D04DD066D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A248A0-07DE-4003-8C11-82D04DD066D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0199B1-10A4-4EB6-810D-61CE7F339F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0199B1-10A4-4EB6-810D-61CE7F339F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0199B1-10A4-4EB6-810D-61CE7F339F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0199B1-10A4-4EB6-810D-61CE7F339F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0215FFA5-50B2-49F0-86E7-03AF19134311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0215FFA5-50B2-49F0-86E7-03AF19134311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0215FFA5-50B2-49F0-86E7-03AF19134311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0215FFA5-50B2-49F0-86E7-03AF19134311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03858E53-995E-4F08-BF58-B84133A78EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03858E53-995E-4F08-BF58-B84133A78EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03858E53-995E-4F08-BF58-B84133A78EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03858E53-995E-4F08-BF58-B84133A78EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
