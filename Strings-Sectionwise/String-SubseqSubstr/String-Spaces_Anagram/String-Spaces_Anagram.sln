@@ -7,22 +7,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacesInCapitals", "String-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstLetterOfWord", "FirstLetterOfWord\FirstLetterOfWord.csproj", "{6D3E50CB-1E9B-4EC1-8C5B-2B4180C711DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpacesBetweenChars", "SpacesBetweenChars\SpacesBetweenChars.csproj", "{40A248A0-07DE-4003-8C11-82D04DD066D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacesBetweenChars", "SpacesBetweenChars\SpacesBetweenChars.csproj", "{40A248A0-07DE-4003-8C11-82D04DD066D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramCheck", "AnagramCheck\AnagramCheck.csproj", "{0C0199B1-10A4-4EB6-810D-61CE7F339F37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramCheck", "AnagramCheck\AnagramCheck.csproj", "{0C0199B1-10A4-4EB6-810D-61CE7F339F37}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doubts", "Doubts", "{E848F1E3-10E3-4112-82A5-053EB2DEE8A6}"
 	ProjectSection(SolutionItems) = preProject
 		Doubts.txt = Doubts.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram-Min.Manipulation", "PrintAlAnagrams\Anagram-Min.Manipulation.csproj", "{0215FFA5-50B2-49F0-86E7-03AF19134311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram-Min.Manipulation", "PrintAlAnagrams\Anagram-Min.Manipulation.csproj", "{0215FFA5-50B2-49F0-86E7-03AF19134311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringsAnagram", "CheckAnagram\SubstringsAnagram.csproj", "{03858E53-995E-4F08-BF58-B84133A78EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubstringsAnagram", "CheckAnagram\SubstringsAnagram.csproj", "{03858E53-995E-4F08-BF58-B84133A78EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram-RemoveChars", "Anagram-RemoveChars\Anagram-RemoveChars.csproj", "{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram-RemoveChars", "Anagram-RemoveChars\Anagram-RemoveChars.csproj", "{54D7B5BB-6BD8-4FF6-B6B2-27F40B61E601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAllAnagrams", "PrintAllAnagrams\PrintAllAnagrams.csproj", "{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintAllAnagrams", "PrintAllAnagrams\PrintAllAnagrams.csproj", "{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienDictionary", "AlienDictionary\AlienDictionary.csproj", "{DFA77F33-08EE-4433-BA26-A6D45517A4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangeSum", "RearrangeSum\RearrangeSum.csproj", "{18350ED7-DACB-4418-8995-1D808812D199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +68,18 @@ Global
 		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA77F33-08EE-4433-BA26-A6D45517A4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA77F33-08EE-4433-BA26-A6D45517A4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA77F33-08EE-4433-BA26-A6D45517A4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA77F33-08EE-4433-BA26-A6D45517A4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18350ED7-DACB-4418-8995-1D808812D199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18350ED7-DACB-4418-8995-1D808812D199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18350ED7-DACB-4418-8995-1D808812D199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18350ED7-DACB-4418-8995-1D808812D199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
