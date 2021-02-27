@@ -24,11 +24,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagram-RemoveChars", "Anag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintAllAnagrams", "PrintAllAnagrams\PrintAllAnagrams.csproj", "{14AD017E-D91E-4FA8-85B9-EF87CD81F9FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlienDictionary", "AlienDictionary\AlienDictionary.csproj", "{DFA77F33-08EE-4433-BA26-A6D45517A4E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlienDictionary", "AlienDictionary\AlienDictionary.csproj", "{DFA77F33-08EE-4433-BA26-A6D45517A4E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RearrangeSum", "RearrangeSum\RearrangeSum.csproj", "{18350ED7-DACB-4418-8995-1D808812D199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RearrangeSum", "RearrangeSum\RearrangeSum.csproj", "{18350ED7-DACB-4418-8995-1D808812D199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutation", "Permutation\Permutation.csproj", "{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchArrayOfSortedStrings", "SearchArrayOfSortedStrings\SearchArrayOfSortedStrings.csproj", "{B4BA30A9-EB52-4F82-8918-0DB17C5DA5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowerCaseBetweenCapitals", "lowerCaseBetweenCapitals\lowerCaseBetweenCapitals.csproj", "{F8C634B1-3E8B-40D9-BAF0-9218C0E41426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,6 +84,14 @@ Global
 		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C9B9F3-81B5-42E6-B7CC-65E5C69F7BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BA30A9-EB52-4F82-8918-0DB17C5DA5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BA30A9-EB52-4F82-8918-0DB17C5DA5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BA30A9-EB52-4F82-8918-0DB17C5DA5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BA30A9-EB52-4F82-8918-0DB17C5DA5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C634B1-3E8B-40D9-BAF0-9218C0E41426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C634B1-3E8B-40D9-BAF0-9218C0E41426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C634B1-3E8B-40D9-BAF0-9218C0E41426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C634B1-3E8B-40D9-BAF0-9218C0E41426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
