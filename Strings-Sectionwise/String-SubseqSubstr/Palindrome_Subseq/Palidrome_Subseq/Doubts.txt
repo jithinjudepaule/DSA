@@ -1,0 +1,5 @@
+1) Revise PrintAllPalins - FindIf a digit is palin Formula
+   for (int i = n; i > 0; i /= 10)
+		{
+			rev = rev * 10 + i % 10;
+		}
