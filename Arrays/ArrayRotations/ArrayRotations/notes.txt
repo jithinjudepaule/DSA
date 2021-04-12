@@ -1,0 +1,4 @@
+1) BinarySearchRotated Array()
+	logic: Find pivot. logic: (pivot element is the only element for which next element to it is smaller than it)
+			If arr[0]< searchelement=> search left ofpivot i.e BinarySearch 0 to pivot-1
+			else arr[0]>searchElement => the array is rotated, hence search RHS pivot+1 to n-1
