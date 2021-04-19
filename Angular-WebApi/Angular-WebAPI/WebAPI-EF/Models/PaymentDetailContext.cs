@@ -12,7 +12,6 @@ namespace WebAPI_EF.Models
         {
 
         }
-
         public DbSet<PaymentDetail> PaymentDetails { get; set; }
     }
 }
