@@ -41,7 +41,7 @@ public class BinaryTree
         while (nodeQueue!=null)
         {
             temp = nodeQueue.Peek();
-            nodeQueue.Dequeue();
+           nodeQueue.Dequeue();
             if (temp.left == null)
             {
                 temp.left = new Node(12);

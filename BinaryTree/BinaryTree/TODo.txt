@@ -1,0 +1,2 @@
+1) Introduction - AVL prob Q10 - https://www.geeksforgeeks.org/binary-tree-data-structure/ - not done as its similar to duplicates in BST
+2) Evaluation of expression tree - Q16(Intro) - solution not given in c# or java
