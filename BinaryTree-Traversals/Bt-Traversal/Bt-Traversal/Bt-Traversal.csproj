@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>4.5</TargetFramework>
+    <RootNamespace>Bt_Traversal</RootNamespace>
+  </PropertyGroup>
+
+</Project>
