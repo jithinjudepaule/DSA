@@ -6,102 +6,59 @@ using System.Threading.Tasks;
 
 namespace BTreeFromArray
 {
-	// C# program to construct binary tree from
-	// given array in level order fashion
-	using System;
+    public class BinaryTree
+    {
+        static void Main(string[] args)
+        {
+            ArrayImplementation arrayImplementation = new ArrayImplementation(5, "A");
+            arrayImplementation.SetLeft("B", 0);
+            arrayImplementation.SetRight("C", 0);
+            arrayImplementation.SetLeft("D", 1);
+            arrayImplementation.SetRight("E", 1);
 
-	public class Tree
-	{
-		Node root;
-
-		// Tree Node
-		public class Node
-		{
-			public int data;
-			public Node left, right;
-			public Node(int data)
-			{
-				this.data = data;
-				this.left = null;
-				this.right = null;
-			}
-		}
-
-		// Function to insert nodes in level order
-		public Node insertLevelOrder(int[] arr,
-								 int i)
-		{
-			if (i >= arr.Length) return null;
-
-			var node = new Node(arr[i]);
-			node.left = insertLevelOrder(arr, 2 * i + 1);
-			node.right = insertLevelOrder(arr, 2 * i + 2);
-
-			return node;
-		}
-
-		// Function to print tree
-		// nodes in InOrder fashion
-		public void inOrder(Node root)
-		{
-			if (root != null)
-			{
-				inOrder(root.left);
-				Console.Write(root.data + " ");
-				inOrder(root.right);
-			}
-		}
-
-		// Driver code
-		public static void Main(String[] args)
-		{
-			Tree t2 = new Tree();
-			int[] arr = { 1, 2, 3};
-			//t2.root = t2.insertLevelOrder(arr, 0);
-			t2.BinaryTreeUsingArray(arr);
-			t2.inOrder(t2.root);
-		}
-
-		Node BinaryTreeUsingArray(int[] array)
-		{
-			Node tempNode = new Node(0);
-			Queue<Node> queueNode = new Queue<Node>();
-			Node root = tempNode;
-			queueNode.Enqueue(tempNode);
-		
-			int n = array.Length / 2;
-            for (int i = 0; i < array.Length / 2; i++)
+            for (int i = 0; i < ArrayImplementation.arrayRepresentation.Length; i++)
             {
-				 tempNode = queueNode.Peek();
+                Console.WriteLine(ArrayImplementation.arrayRepresentation[i]);
+            }
 
-                if ((2*i+1)<array.Length)
-                {
-					tempNode.left = new Node(array[2 * i + 1]);
-					
-                    if (n!=0)
-                    {
-						queueNode.Enqueue(tempNode.left);
-						n--;
-					}
-                }
+        }
+    }
 
-				if ((2 * i + 2) < array.Length)
-				{
-					tempNode.right = new Node(array[2 * i + 2]);
-					
-					if (n != 0)
-					{
-						queueNode.Enqueue(tempNode.right);
-						n--;
-					}
-				}
+    public class ArrayImplementation
+    {
+        public static string[] arrayRepresentation;
+        public ArrayImplementation(int size, string root)
+        {
+            arrayRepresentation = new string[size];
+            arrayRepresentation[0] = root;
+        }
 
-			}
-			return root;
-		}
+       public   void SetLeft(string key, int parent)
+        {
+            if (arrayRepresentation[parent]==null)
+            {
+                Console.WriteLine("Cannot set child as no parent found");
+            }
+            else
+            {
+                arrayRepresentation[2 * parent + 1] = key;
+            }
+            
+        }
 
+       public  void SetRight(string key, int parent)
+        {
+            if (arrayRepresentation[parent] == null)
+            {
+                Console.WriteLine("Cannot set child as no parent found");
+            }
+            else
+            {
+                arrayRepresentation[2 * parent + 2] = key;
+            }
 
-	}
+        }
+    }
 
 
 }
