@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intro", "Intro\Intro.csproj", "{9814681C-B96E-4427-9E0F-2553252E5DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert", "Intro\Insert.csproj", "{9814681C-B96E-4427-9E0F-2553252E5DEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseLinkedList", "TraverseLinkedList\TraverseLinkedList.csproj", "{547B8CEF-F602-4D1F-82CD-6A7CC8CB2562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraverseLinkedList", "TraverseLinkedList\TraverseLinkedList.csproj", "{547B8CEF-F602-4D1F-82CD-6A7CC8CB2562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

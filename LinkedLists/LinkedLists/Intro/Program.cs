@@ -1,68 +1,76 @@
-﻿// A simple C# program to introduce a linked list 
-using System;
+﻿using System;
 
 public class LinkedList
 {
-	Node head; // head of list 
+    public class Node
+    {
+        public Node next;
+        public int data;
+        public Node(int data)
+        {
+            this.data = data;
+        }
+    }
 
-	/* Linked list Node. This inner class is made static so that 
-	main() can access it */
-	public class Node
-	{
-		public int data;
-		public Node next;
-		public Node(int d)
-		{
-			data = d;
-			next = null;
-		} // Constructor 
-	}
+    static Node head;
 
-	/* method to create a simple linked list with 3 nodes*/
-	public static void Main(String[] args)
-	{
-		/* Start with the empty list. */
-		LinkedList llist = new LinkedList();
+    static void Main(string[] args)
+    {
+        head = new Node(1);
+        Node second = new Node(2);
+        Node third = new Node(3);
+        head.next = second;
+        second.next = third;
 
-		llist.	head = new Node(1);
-		Node second = new Node(2);
-		Node third = new Node(3);
+        PrintLinkedList();
+        // InsertNodeAtHead();
+       // InsertNodeAfterANode(second, 4);
+        InsertNodeAtEnd(4);
+        Console.WriteLine("After Insertion");
+        PrintLinkedList();
+    }
 
-		/* Three nodes have been allocated dynamically. 
-		We have references to these three blocks as head, 
-		second and third 
+    private static void InsertNodeAtEnd(int nodeData)
+    {
+        Node newNode = new Node(nodeData);
+        Node n = head;
+        while (n.next!=null)
+        {
+            n = n.next;
+        }
 
-		llist.head	 second			 third 
-			|			 |				 | 
-			|			 |				 | 
-		+----+------+	 +----+------+	 +----+------+ 
-		| 1 | null |	 | 2 | null |	 | 3 | null | 
-		+----+------+	 +----+------+	 +----+------+ */
+        n.next = newNode;
+       
+    }
 
-		llist.head.next = second; // Link first node with the second node 
+    private static void PrintLinkedList()
+    {
+        Node n = head;
 
-		/* Now next of first Node refers to second. So they 
-			both are linked. 
+        while (n!=null)
+        {
+            Console.Write(n.data+" ");
+            n = n.next;
+        }
+    }
 
-		llist.head	 second			 third 
-			|			 |				 | 
-			|			 |				 | 
-		+----+------+	 +----+------+	 +----+------+ 
-		| 1 | o-------->| 2 | null |	 | 3 | null | 
-		+----+------+	 +----+------+	 +----+------+ */
+    private static void InsertNodeAtHead()
+    {
+        Node newNode = new Node(4);
+        newNode.next = head;
 
-		second.next = third; // Link second node with the third node 
+        head = newNode;
+    }
 
-		/* Now next of the second Node refers to third. So all three 
-			nodes are linked. 
+    private static void InsertNodeAfterANode(Node prevNode, int nodeDataToInsert)
+    {
+        if (prevNode==null)
+        {
+            return;
+        }
 
-		llist.head	 second			 third 
-			|			 |				 | 
-			|			 |				 | 
-		+----+------+	 +----+------+	 +----+------+ 
-		| 1 | o-------->| 2 | o-------->| 3 | null | 
-		+----+------+	 +----+------+	 +----+------+ */
-	}
+        Node newNode = new Node(nodeDataToInsert);
+        newNode.next = prevNode.next;
+        prevNode.next = newNode;
+    }
 }
-
-// This code has been contributed by 29AjayKumar 
